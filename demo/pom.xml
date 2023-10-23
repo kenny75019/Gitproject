@@ -22,7 +22,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.4.0</version> <!-- Assurez-vous que la version est correcte -->
                 <configuration>
-                    <failOnMissingWebXml>false> <!-- Désactive l'exigence du fichier web.xml -->
+                    <failOnMissingWebXml>false</failOnMissingWebXml> <!-- Désactive l'exigence du fichier web.xml -->
                 </configuration>
             </plugin>
         </plugins>
